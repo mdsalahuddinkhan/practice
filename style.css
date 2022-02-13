@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+/* h1::before{
+    content: "Md ";
+}
+
+
+h1::after{
+    content: ' Khan';
+} */
+
+
+/* .hero-section{
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    padding: 300px 0px;
+    position: relative;
+}
+.hero-section::after{
+    content: "";
+    background: rgba(0, 95, 172, 0.678);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+h1{
+    position: relative;
+    z-index: 2;
+} */
+
+.btn{
+    width: 50%;
+    margin: auto;
+    padding: 200px 0px;
+}
+.btn a {
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: none;
+    border: 2px solid rgb(0, 140, 255);
+    padding: 15px 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 7px;
+    position: relative;
+    
+}
+.btn a::after{
+    content: "";
+    background: red;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .5s;
+
+}
+.btn a:hover::after{
+    height: 100%;
+}
